@@ -152,12 +152,7 @@ body {
 }
 @media (max-width: 799px) {
   body {
-    width: 400px;
-  }
-}
-@media (max-width: 399px) {
-  body {
-    width: 200px;
+    width: 100%;
   }
 }
 body h1 {
@@ -211,6 +206,7 @@ body .content {
   body .content {
     flex-flow: column nowrap;
     font-size: 1.6rem;
+    padding-left: 50px;
   }
   body .content ul {
     width: 90%;
